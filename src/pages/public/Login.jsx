@@ -100,6 +100,12 @@ function Login() {
           >
             Login
           </button>
+         <div className="text-center mt-4">
+  <a href="/signup" className="text-blue-600 underline hover:text-blue-800">
+    Create an Account
+  </a>
+</div>
+
         </form>
       </div>
     </div>

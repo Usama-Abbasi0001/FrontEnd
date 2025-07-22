@@ -10,13 +10,13 @@ function Leftbar() {
     <>
       {/* Mobile Navbar Toggle */}
       <div className="lg:hidden flex items-center justify-between px-4 py-3 border-b">
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center ">
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <XMarkIcon className="w-6 h-6" /> : <Bars3Icon className="w-6 h-6" />}
           </button>
           <img
             src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-mobile.svg&w=64&q=75"
-            alt="Logo"
+            alt="Net Error"
             className="h-6"
           />
         </div>
@@ -84,7 +84,7 @@ function Leftbar() {
       )}
 
       {/* Desktop Logo */}
-      <div className="lg:flex hidden">
+      <div className="lg:flex hidden ps-4">
         <img
           src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&w=640&q=75"
           alt="Logo"

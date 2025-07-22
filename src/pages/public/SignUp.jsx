@@ -150,7 +150,8 @@ function SignUp() {
 
           {/* Submit Button */}
           <button
-            type="submit"
+            // type="submit"
+              onClick={() => navigate('/')}
             className="w-full bg-blue-600 text-white py-2 rounded-lg mt-4 hover:bg-blue-700 transition"
           >
             Submit
