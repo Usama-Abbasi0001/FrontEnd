@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-600">
         {/* Left Side */}
         <div className="mb-4 sm:mb-0">
-          © Frontend Mentor 2019 - 2025
+          © Frontend Mentor 25-7-2025 Usama Khan
         </div>
 
         {/* Right Side Links */}
