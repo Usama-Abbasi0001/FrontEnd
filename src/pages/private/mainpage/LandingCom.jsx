@@ -6,6 +6,8 @@ import PremiumSection from '../landing/PremiumSection'
 import PracticeSection from '../landing/PracticeSection'
 import SolutionSection from '../landing/SolutionSection'
 import CameraSection from '../landing/CameraSection'
+import SubsSection from '../landing/SubsSection'
+import FooterSection from '../landing/FooterSection'
 
 function LandingCom() {
   return (
@@ -17,6 +19,9 @@ function LandingCom() {
       <PracticeSection/>
       <SolutionSection/>
       <CameraSection/>
+      <CardsSection/>
+      <SubsSection/>
+      <FooterSection/>
     </div>
   )
 }
